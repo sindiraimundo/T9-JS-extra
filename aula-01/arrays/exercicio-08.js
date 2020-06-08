@@ -12,3 +12,7 @@ const tarefas = [{
 }];
 
 /* Acesse a propriedade do objeto do terceiro item*/
+
+let acessarTarefas = tarefas[0].reuniao.amigos;
+
+console.log(acessarTarefas)
