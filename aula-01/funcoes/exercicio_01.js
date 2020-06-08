@@ -13,3 +13,12 @@ A {nome} {Sobrenome} mora em São Paulo / SP, no bairro Centro, na rua "Rua dos 
 nº 1293.
 
 O retorno deverá ser template string*/
+
+
+function pegaNome(nome, sobrenome) {
+const modificarNome = nome.toUpperCase();
+const modificarSobrenome = sobrenome.toUpperCase();
+  return ` ${modificarNome} ${modificarSobrenome} `
+}
+
+console.log(pegaNome('Maria', 'Silva')`${endereco}`);
