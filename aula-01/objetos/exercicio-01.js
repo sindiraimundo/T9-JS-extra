@@ -3,9 +3,12 @@
     especie = cachorro
     raca = golden
 */
+let animal = {
+    porte: "Grande",
+    especie: "Cachorro",
+    raca: "Golden"
+}
 
- let animal = {
-     porte: "grande",
-     especie: "cachorro",
-     raca: "golden",
- }
+//verificar objeto
+
+console.log(animal)
