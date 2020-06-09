@@ -7,7 +7,7 @@ length para retornar a quantidade de letras
 na palavra recebida na função*/
 
 function obterPalavra(palavra){
-    return palavra.length
+    return palavra.length;
 }
 
 const quantidadeLetras = obterPalavra('Olá');

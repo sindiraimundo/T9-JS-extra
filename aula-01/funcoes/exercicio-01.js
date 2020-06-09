@@ -15,12 +15,12 @@ nº 1293.
 O retorno deverá ser template string*/
 
 function pegarNomeCompleto(nome, sobrenome) {
-  // const nomeSobrenome = nome + " " + sobrenome;
+  const nomeSobrenome = nome + " " + sobrenome;
+  const modificarNomeCompleto = nomeSobrenome.toUpperCase();
 
-  // const modificarNomeCompleto = nomeSobrenome.toUpperCase();
-  // console.log(modificarNomeCompleto);
+  //const nomeSobrenome = nome.concat(" ", sobrenome).toUpperCase();
 
-  const nomeSobrenome = nome.concat(" ", )
+  console.log(modificarNomeCompleto);
 }
 
 console.log(pegarNomeCompleto('Jéssica', 'Osko'))

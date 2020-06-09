@@ -1,9 +1,12 @@
-/*Crie uma função que receba o parametro ano de nascimento e retorne a idade a partir do ano atual */
+/*Crie uma função que receba o parametro ano de nascimento
+ e retorne a idade a partir do ano atual */
 
-function receberAnoNascimento(anoNascimento){
-    const anoAtual = new Date().getFullYear();
-    const idade = anoAtual - anoNascimento;
-    console.log(`A sua idade é ${}`)
+function calcularIdade(ano) {
+  const anoAtual = new Date().getFullYear(); //2020 - ano atual 
+  const calcularIdade = anoAtual - ano;
+  console.log(`A sua idade é ${calcularIdade} anos.`)
 }
 
-const resultado
+const resultadoIdade = calcularIdade(1992);
+
+console.log(resultadoIdade);
